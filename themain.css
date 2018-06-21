@@ -1,0 +1,127 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+.textcentre{
+	text-align: center;
+}
+#navbar {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;}
+
+
+#screencolor{
+	background-color: black; 
+	color: white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+#redcolour{
+	color: crimson;
+}
+#doodle{
+	color: blue;
+
+}
+#aboutus{
+	font-size: 20px;
+
+}
+#makeit{
+	background-color:  #ccc;
+	padding-top: 20px;
+	padding-bottom: 90px;
+}
+#makeit h1{
+	color: crimson;
+
+}
+#makeit ul{
+	padding-top: 30px;
+
+}
+.container{
+	width:80%;
+	margin: 0 auto; 
+	font-size: 20px;
+}
+#makeit h4{
+	text-decoration: underline;
+}
+#makeit p{
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: -11px;
+}
+#wedoit{
+	background-color: #353a40;
+	padding-top: 18px;
+	padding-bottom: 30px;
+
+}
+#wedoit h1{
+	text-align: center;
+	color: white;
+}
+table{
+border-collapse: separate;
+margin: 20px auto;
+background: #fff;
+
+}
+thead th{
+	text-align: left;
+	font-weight: 200;
+	font-size: 18px;
+	background-color: grey;
+    padding: 20px;	
+    color: #fff;
+}
+tbody tr td{
+	font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:13px;
+  padding: 20px;
+  border-bottom:1px solid #e0e0e0;
+}
+tbody tr:nth-child(2n) {
+	background:#f0f3f5; 
+}
+
+#navbar ul{
+margin: 0;
+text-align: right;
+list-style-type: none;
+background-color: #ccc;
+height: 60px;
+}
+
+#rightshift li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+    display: inline;
+    font-weight: 300;
+}
+
+#rightshift li a{
+	text-decoration: none; 
+	font-size:20px;
+	padding: 18px 18px ; 
+	color: #555;
+	background-color: #ccc; 
+}
+#rightshift a:hover{
+	color: #000;
+	background-color: grey;
+}
+#navbar ul li a img{
+	max-height: 60px;
+}
+#rightshift {
+	float: right;
+	padding-bottom: 18px;
+	padding top: 18px;
+}
